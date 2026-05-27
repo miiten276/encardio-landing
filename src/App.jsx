@@ -124,7 +124,7 @@ export default function EncardioLandingPage() {
           {/* Zentraler Button unter der Liste */}
           <div className="text-center">
             <a 
-              href="https://encardio.com" 
+              href="https://www.encardio.com/geotechnical-products" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-semibold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 px-6 py-3 rounded-xl transition-colors duration-200"
