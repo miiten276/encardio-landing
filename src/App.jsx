@@ -32,8 +32,9 @@ export default function EncardioLandingPage() {
           <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-emerald-900 opacity-95" />
           <div className="relative max-w-7xl mx-auto px-6 py-28 lg:py-40">
             <div className="max-w-4xl">
+              {/* Geänderter Text: Deutschland, Österreich & Schweiz */}
               <div className="inline-flex items-center rounded-full border border-emerald-400/30 bg-emerald-400/10 px-4 py-2 text-sm text-emerald-200 mb-8">
-                Encardio Rite Vertrieb Deutschland & Schweiz
+                Encardio Rite Vertrieb Deutschland, Österreich & Schweiz
               </div>
 
               <h1 className="text-5xl md:text-7xl font-light leading-tight tracking-tight text-white mb-8">
@@ -51,8 +52,52 @@ export default function EncardioLandingPage() {
           </div>
         </section>
 
+        {/* Vorteile / USPs oberhalb der Produkte */}
+        <section className="max-w-7xl mx-auto px-6 pt-16 pb-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Vorteil 1 */}
+            <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex items-start gap-4">
+              <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 flex-shrink-0">
+                <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M21 21h1.5M3 21h1.5m0 0V8.25m0 12.75h4.5M3 21V3.545M3 3.545a.75.75 0 0 1 .75-.75h5.5c.414 0 .75.336.75.75V8.25m-7.5 0h7.5m0 0h5.25m-5.25 0v3.75c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75V5.25a.75.75 0 0 0-.75-.75h-5.25" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-slate-900 mb-1">Schnelle Verfügbarkeit</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">Viele Produkte direkt ab eigenem CH-Lager.</p>
+              </div>
+            </div>
+
+            {/* Vorteil 2 */}
+            <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex items-start gap-4">
+              <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 flex-shrink-0">
+                <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-12H16.5M21 15.75V18m0-2.25h.75m-7.5-3h.008v.008H14.25v-.008Zm0 2.25h.008v.008H14.25v-.008Zm-.75-2.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm0 2.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-slate-900 mb-1">Kompetitive Preise</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">Attraktive Konditionen für Ihre Messprojekte.</p>
+              </div>
+            </div>
+
+            {/* Vorteil 3 */}
+            <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex items-start gap-4">
+              <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 flex-shrink-0">
+                <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.83-5.83m0 0a2.999 2.999 0 0 0-4.142-4.142m4.142 4.142-3.658 3.658m0 0a3 3 0 1 1-4.142-4.142m4.142 4.142V12M10.5 10.5H12m-6.75 6.75 2.586-2.586m12.164-12.164A2.652 2.652 0 0 0 16.5 3c-.051 0-.1 0-.15.002L12 6M3 16.5V21h4.5l7.42-7.42" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-slate-900 mb-1">Technische Unterstützung</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">Unkomplizierter und direkter Support bei Fragen.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Bereich für Produkte */}
-        <section className="max-w-7xl mx-auto px-6 py-20">
+        <section className="max-w-7xl mx-auto px-6 py-12">
           <div className="mb-12">
             <h2 className="text-3xl font-light tracking-tight text-slate-900 mb-4">
               Produkte
@@ -62,7 +107,7 @@ export default function EncardioLandingPage() {
             </p>
           </div>
           
-          {/* Produkt-Raster ohne Buttons */}
+          {/* Produkt-Raster */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
             {products.map((product, index) => (
               <div key={index} className="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:border-emerald-500 transition-all duration-200 flex items-start gap-3">
@@ -76,7 +121,7 @@ export default function EncardioLandingPage() {
             ))}
           </div>
 
-          {/* NEU: Ein einzelner, zentraler Button unter der Liste */}
+          {/* Zentraler Button unter der Liste */}
           <div className="text-center">
             <a 
               href="https://encardio.com" 
