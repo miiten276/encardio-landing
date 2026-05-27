@@ -62,31 +62,33 @@ export default function EncardioLandingPage() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {/* Produkt-Raster ohne Buttons */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
             {products.map((product, index) => (
-              <div key={index} className="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:border-emerald-500 transition-all duration-200 flex flex-col justify-between gap-4">
-                <div className="flex items-start gap-3">
-                  <span className="text-emerald-500 mt-1 flex-shrink-0">
-                    <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                    </svg>
-                  </span>
-                  <span className="font-medium text-slate-800">{product}</span>
-                </div>
-                
-                <a 
-                  href="https://www.encardio.com/geotechnical-products" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-between text-xs font-semibold text-emerald-600 hover:text-emerald-700 bg-emerald-50 hover:bg-emerald-100/70 px-3 py-2 rounded-lg transition-colors duration-200 mt-auto"
-                >
-                  <span>Mehr Details</span>
-                  <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              <div key={index} className="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:border-emerald-500 transition-all duration-200 flex items-start gap-3">
+                <span className="text-emerald-500 mt-1 flex-shrink-0">
+                  <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                   </svg>
-                </a>
+                </span>
+                <span className="font-medium text-slate-800">{product}</span>
               </div>
             ))}
+          </div>
+
+          {/* NEU: Ein einzelner, zentraler Button unter der Liste */}
+          <div className="text-center">
+            <a 
+              href="https://encardio.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 px-6 py-3 rounded-xl transition-colors duration-200"
+            >
+              <span>Mehr Details zu den Produkten</span>
+              <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
           </div>
         </section>
       </div>
