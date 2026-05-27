@@ -46,7 +46,7 @@ export default function EncardioLandingPage() {
 
               <p className="text-xl md:text-2xl text-slate-300 leading-relaxed max-w-3xl mb-10 font-light">
                 Vertrieb hochwertiger Encardio Rite Messinstrumente für geotechnische Anwendungen,
-                Infrastrukturprojekte und Bauwerksüberwachung.
+                Infrastrukturprojekte und Bauwerksüberwachung
               </p>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function EncardioLandingPage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-slate-900 mb-1">Schnelle Verfügbarkeit</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">Viele Produkte direkt ab eigenem CH-Lager.</p>
+                <p className="text-slate-600 text-sm leading-relaxed">Viele Produkte direkt ab eigenem CH-Lager</p>
               </div>
             </div>
 
@@ -77,7 +77,7 @@ export default function EncardioLandingPage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-slate-900 mb-1">Kompetitive Preise</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">Attraktive Konditionen für Ihre Messprojekte.</p>
+                <p className="text-slate-600 text-sm leading-relaxed">Attraktive Konditionen für Ihre Messprojekte</p>
               </div>
             </div>
 
@@ -90,7 +90,7 @@ export default function EncardioLandingPage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-slate-900 mb-1">Technische Unterstützung</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">Unkomplizierter und direkter Support bei Fragen.</p>
+                <p className="text-slate-600 text-sm leading-relaxed">Unkomplizierter und direkter Support bei Fragen</p>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ export default function EncardioLandingPage() {
               Produkte
             </h2>
             <p className="text-slate-600 max-w-2xl">
-              Entdecken Sie unsere breite Palette an präzisen Messinstrumenten für jedes Projekt.
+              Entdecken Sie unsere breite Palette an präzisen Messinstrumenten für jedes Projekt
             </p>
           </div>
           
@@ -145,7 +145,7 @@ export default function EncardioLandingPage() {
             Kontakt & <span className="text-emerald-400 font-normal">Offertanfrage</span>
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto mb-8 font-light">
-            Haben Sie Fragen zu unseren Produkten oder wünschen Sie eine unverbindliche Offerte? Wir sind gerne für Sie da.
+            Haben Sie Fragen zu den Produkten oder wünschen Sie eine unverbindliche Offerte? Wir sind gerne für Sie da.
           </p>
           <a 
             href="mailto:encardio@marmota.com" 
